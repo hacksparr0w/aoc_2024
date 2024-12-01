@@ -6,7 +6,7 @@ def load_input():
     xs = []
     ys = []
 
-    with open("01.txt", encoding="utf-8") as stream:
+    with open("input/01.txt", encoding="utf-8") as stream:
         for line in stream:
             x, y = line.strip().split("   ")
 
